@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "Flight_Fare"]
+	url = https://github.com/sohampawar/flight_fare_prediction
+	fetch = +refs/heads/*:refs/remotes/Flight_Fare/*
+[remote "origin"]
+	url = https://github.com/sohampawar/flight_fare_prediction.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
